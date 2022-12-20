@@ -1,0 +1,20 @@
+.greeting-tag {
+  margin-bottom: 20px;
+  margin-top: 30%;
+  margin-left: 8%;
+  color: var(--purple-color-1);
+}
+
+.greeting-headline {
+  margin-top: 5%;
+  margin-left: 8%;
+  color: var(--purple-color-1);
+  font-weight: bold;
+}
+
+.greeting-description {
+  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-left: 8%;
+  color: var(--purple-color-1);
+}

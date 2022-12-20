@@ -1,0 +1,30 @@
+.Navigation--bar {
+  /* rectangle-395 */
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  position: fixed;
+  height: 64px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow: hidden;
+
+  font-family: "Roboto";
+  font-style: normal;
+
+  background: var(--primary-color-1);
+}
+
+.navbar-logo {
+  width: 36px;
+  height: 36px;
+}
+
+.navbar-logo-small {
+  width: 30px;
+  height: 30px;
+  background: var(--primary-color-1);
+}

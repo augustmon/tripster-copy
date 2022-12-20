@@ -1,0 +1,21 @@
+.user-link-username{
+margin-top: 20px;
+margin-left: 20px;
+color: var(--primary-color-3);
+}
+.user-link-add{
+  position: absolute;
+  margin-left: 320px;
+}
+
+.userlink-image {
+  position: absolute;
+  width: 45px;
+  border-radius: 25px;
+  margin-left: -30px;
+
+}
+
+.userlink-description{
+  margin-left: 20px;
+}

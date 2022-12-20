@@ -1,0 +1,49 @@
+#signup {
+  background-color: var(--purple-color-1);
+  color: var(--primary-color-1);
+}
+
+#signup:hover {
+  background-color: var(--purple-color-2);
+  color: var(--primary-color-1);
+}
+
+#login {
+  background-color: var(--purple-color-4);
+  color: var(--primary-color-1);
+}
+
+#login:hover {
+  background-color: var(--purple-color-5);
+  color: var(--primary-color-1);
+}
+
+#dead {
+  color: var(grey);
+}
+
+.Button {
+  margin: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  transition: 200ms;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  width: 194px;
+  height: 48px;
+  gap: 10px;
+
+  box-shadow: 0px 4px 4px var(--grey-color-3);
+  border-radius: 10px;
+}
+
+/* if you wanna change on press:  */
+
+/* button :active {
+  transform: translateY(4px);
+}  */

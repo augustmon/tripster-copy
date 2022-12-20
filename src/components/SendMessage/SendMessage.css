@@ -1,0 +1,11 @@
+.send-message {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: 40px 40px;
+  background-image: url("./../../graphics/send_message.png");
+}

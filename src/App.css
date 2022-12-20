@@ -1,0 +1,241 @@
+/*These are text styles for the app. jkon */
+
+/*ALIGNMENTS*/
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  color: var(--purple-color-1);
+  background-color: var(--primary-color-8);
+}
+
+.arrow-back {
+  position: absolute;
+  margin-left: 2%;
+  margin-top: -27%;
+}
+
+.logo-small {
+  position: absolute;
+  margin-left: 5px;
+  margin-top: -40px;
+}
+
+.centering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*TEXT*/
+/*App name, page title*/
+.headline {
+  font-size: 48px;
+  line-height: 32px;
+}
+
+/*Additional to headline or element naming*/
+.title {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+/*Body text for chat windows or extra info*/
+.header {
+  font-size: 12px;
+  line-height: 17px;
+}
+
+/*App page name such as Chats, Discover*/
+.body {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+/*LINKS*/
+a:link,
+a:visited {
+  text-decoration: none;
+}
+a:link {
+  color: var(--primary-color-2);
+  font-weight: 500;
+}
+a:visited {
+  color: var(--purple-color-5);
+}
+
+/*FORMS*/
+/*Label*/
+.form-item label {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  color: var(--purple-color-1);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/*Form fields*/
+.form-item {
+  background: var(--primary-color-8);
+  margin-top: 40px;
+}
+
+/*rounded corners*/
+input[type="text"] {
+  border: 2px solid var(--primary-color-8);
+  border-radius: 10px;
+  border-color: var(--purple-color-1);
+  width: 326px;
+  height: 40px;
+}
+
+input[type="password"] {
+  border: 2px solid var(--primary-color-8);
+  border-radius: 10px;
+  border-color: var(--purple-color-1);
+  width: 326px;
+  height: 40px;
+}
+
+input[type="username"] {
+  border: 2px solid var(--primary-color-8);
+  border-radius: 10px;
+  border-color: var(--purple-color-1);
+  width: 326px;
+  height: 40px;
+}
+
+/*Focused fields*/
+input[type="text"]:focus {
+  outline: none;
+  border: 3px solid var(--purple-color-4);
+}
+
+input[type="password"]:focus {
+  outline: none;
+  border: 3px solid var(--purple-color-4);
+}
+
+/*CHAT*/
+.messages {
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.message-user {
+  /* background-color: var(--primary-color-8);*/
+  font-size: 10px;
+}
+
+.message-sent {
+  text-align: right;
+  border-radius: 25px;
+  padding: 12px;
+  background: var(--purple-color-4);
+  margin-top: 5px;
+  max-width: fit-content;
+  align-self: end;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.message-received {
+  text-align: left;
+  border-radius: 25px;
+  padding: 12px;
+  background: var(--purple-color-6);
+  margin-top: 5px;
+  max-width: fit-content;
+}
+.message-time {
+  color: var(--purple-color-1);
+  font-size: 10px;
+  margin-top: 5px;
+  /*  background-color: var(--primary-color-8);*/
+}
+.message-input {
+  position: relative;
+  margin-bottom: -10px;
+}
+
+input[type="message"] {
+  border: 1px solid var(--primary-color-1);
+  border-radius: 15px;
+  width: 310px;
+  height: 38px;
+  margin-left: 27px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+  margin-top: 25px;
+  word-wrap: normal;
+  word-break: break-all;
+  background-color: var(--primary-color-7);
+  color: var(--purple-color-1);
+}
+.send-message {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 3px;
+  margin-right: 3px;
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: 40px 40px;
+  background-image: url("./graphics/send_message.png");
+  overflow: hidden;
+}
+.status {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+:root {
+  /* Primary Colors */
+  --primary-color-1: hsl(258, 25%, 10%); /*Bottom bar, or dark text*/
+  --primary-color-2: hsl(258, 84%, 75%);
+  --primary-color-3: hsl(257, 46%, 55%); /*Small icon of paper plane in logo*/
+  --primary-color-4: hsl(270, 2%, 82%);
+  --primary-color-5: hsl(260, 3%, 64%);
+  --primary-color-6: hsl(260, 4%, 46%);
+  --primary-color-7: hsl(256, 8%, 28%); /*Message Input*/
+  --primary-color-8: hsl(251, 18%, 19%); /*App background*/
+
+  /* Secondary Colors */
+  --secondary-color-1: hsl(10, 100%, 92%); /*Semantic error message color*/
+  --secondary-color-2: hsl(120, 100%, 95%); /*Semantic sucess message color*/
+  --secondary-color-1: hsl(240, 2%, 46%); /*Error message color*/
+  --secondary-color-1: hsl(252, 6%, 83%); /*Sucess message color*/
+  --secondary-color-1: hsl(60, 100%, 88%); /*Warning message color*/
+  --secondary-color-1: hsl(260, 3%, 64%); /*Warning message color*/
+
+  /* Purple Shades */
+  --purple-color-1: hsl(
+    256,
+    100%,
+    97%
+  ); /*"White" background, Sign up button, "white" text */
+  --purple-color-2: hsl(256, 68%, 84%); /*Active icon in the botom bar*/
+  --purple-color-3: hsl(258, 62%, 74%);
+  --purple-color-4: hsl(
+    258,
+    59%,
+    66%
+  ); /*Buttons, text, non-active icons in botom bar*/
+  --purple-color-5: hsl(255, 48%, 53%);
+  --purple-color-6: hsl(248, 45%, 40%);
+
+  /* Grey shades */
+  --grey-color-1: hsl(270, 2%, 82%);
+  --grey-color-2: hsl(260, 3%, 64%);
+  --grey-color-3: hsl(260, 4%, 46%);
+  --grey-color-4: hsl(256, 8%, 28%);
+  --grey-color-5: hsl(251, 18%, 19%);
+  --grey-color-6: hsl(258, 25%, 10%);
+}

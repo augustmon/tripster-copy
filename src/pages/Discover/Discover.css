@@ -1,0 +1,23 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-list {
+  margin-top: 20px;
+}
+
+.group-list {
+  margin-bottom: 120px;
+}
+.people {
+  margin-top: 40px;
+  margin-left: 20px;
+  color: var(--purple-color-1);
+  font-weight: 500;
+}

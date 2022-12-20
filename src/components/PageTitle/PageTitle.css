@@ -1,0 +1,12 @@
+.app-body {
+  display: flex;
+  text-align: center;
+}
+
+.page-title-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
